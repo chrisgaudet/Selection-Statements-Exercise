@@ -10,15 +10,15 @@
             var favNumber = 7;
 
             Console.WriteLine($"Pick a number from 1-10");
-            var userInput= int.Parse( Console.ReadLine());
+            var userInput = int.Parse(Console.ReadLine());
 
             if (userInput < favNumber)
             {
-                Console.WriteLine($"{favNumber} is too low");
+                Console.WriteLine($"{userInput} is too low");
             }
             else if (userInput > favNumber)
             {
-                Console.WriteLine($"{favNumber} is too high");
+                Console.WriteLine($"{userInput} is too high");
             }
             else
             {
