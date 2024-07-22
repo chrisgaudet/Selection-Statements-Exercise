@@ -1,6 +1,4 @@
-﻿using static System.Collections.Specialized.BitVector32;
-
-namespace SelectionStatementExercise
+﻿namespace SelectionStatementExercise
 {
     public class Program
     {
@@ -8,9 +6,10 @@ namespace SelectionStatementExercise
         {
             //Number Guess
             var r = new Random();
-            var favNumber = r.Next(1, 1000);
+            //var favNumber = r.Next(1, 10);
+            var favNumber = 7;
 
-            Console.WriteLine($"Pick a number from 1-1000");
+            Console.WriteLine($"Pick a number from 1-10");
             var userInput= int.Parse( Console.ReadLine());
 
             if (userInput < favNumber)
